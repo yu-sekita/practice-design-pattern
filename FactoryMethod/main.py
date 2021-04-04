@@ -16,5 +16,5 @@ if __name__ == '__main__':
         ('001', 'Taro'),
         ('002', 'Jiro')
     ]
-    file = creator.create_file()
+    file = creator.create()
     file.write(users, file_path)

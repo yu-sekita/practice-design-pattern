@@ -12,6 +12,9 @@ class File:
 
 class HTML:
 
+    def __str__(self):
+        return 'HTML Class'
+
     def write(self, users, file_path):
         body = self.__create_body(users)
 
@@ -47,6 +50,9 @@ class HTML:
 
 
 class CSV:
+
+    def __str__(self):
+        return 'CSV Class'
 
     def write(self, users, file_path):
         text = [['ID', 'name']]
