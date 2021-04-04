@@ -10,7 +10,7 @@ class File:
         pass
 
 
-class HTML:
+class HTML(File):
 
     def __str__(self):
         return 'HTML Class'
@@ -49,7 +49,7 @@ class HTML:
         return body
 
 
-class CSV:
+class CSV(File):
 
     def __str__(self):
         return 'CSV Class'
